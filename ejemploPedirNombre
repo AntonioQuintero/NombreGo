@@ -1,0 +1,14 @@
+package main
+import ("fmt")
+
+func main(){
+  var nombre,apellido string
+
+  fmt.Println("Dame tu nombre: ")
+  fmt.Scanf("%s\n",&nombre)
+  fmt.Println("Dame tu apellido: ")
+  fmt.Scanf("%s\n",&apellido)
+  fmt.Printf("Usted se llama: %s\n",nombre+ " "+ apellido)
+
+
+}
